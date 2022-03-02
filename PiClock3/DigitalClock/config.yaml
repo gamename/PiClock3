@@ -1,5 +1,5 @@
 module: PiClock3.DigitalClock
 block: clock-face
-color: "#010023"
+color: "#000000"
 extra-font-attributes: ""
 format: "{plugin-data.now:%I:%M %p}"  # The format of the time
