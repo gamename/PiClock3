@@ -2,4 +2,4 @@ module: PiClock3.DigitalClock
 block: clock-face
 color: "#50CBEB"
 extra-font-attributes: ""
-format: "{plugin-data.now:%I:%M\n%S %p}"  # The format of the time
+format: "{plugin-data.now:%I:%M %p}"  # The format of the time
