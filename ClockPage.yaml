@@ -11,15 +11,15 @@ blocks:
   clock-face:
     type: frame
     order: 1
-    width: 0.5
-    aspect: 1.0
+    width: 1.0
+    aspect: 0.75
     horizontal-center: 0.0
     vertical-center: 0.0
   top-line:
     order: 3
     type: label
     width: 1.0
-    height: 0.1
+    height: 0.18
     top: 0.0
     left: 0.0
     styles:
