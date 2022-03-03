@@ -43,11 +43,11 @@ class DigitalClock(Plugin):
         logging.info(self.clockface.styleSheet())
         self.clockface.setAlignment(Qt.AlignCenter)
         self.clockface.setGeometry(self.clockrect)
-        self.glow = QGraphicsDropShadowEffect()
-        self.glow.setOffset(0)
-        self.glow.setBlurRadius(50)
-        self.glow.setColor(QColor(dcolor))
-        self.clockface.setGraphicsEffect(self.glow)
+        # self.glow = QGraphicsDropShadowEffect()
+        # self.glow.setOffset(0)
+        # self.glow.setBlurRadius(50)
+        # self.glow.setColor(QColor(dcolor))
+        # self.clockface.setGraphicsEffect(self.glow)
         self.lasttimestr = ""
 
         self.ctimer = QTimer()
