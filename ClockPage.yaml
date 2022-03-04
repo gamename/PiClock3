@@ -5,7 +5,7 @@ blocks:
     type: frame
     width: 1.0
     height: 1.0
-    background-image: "{folders.image}/westhaven-sunrise3.png"
+    background-image: "{folders.image}/smokies.png"
     styles:
       background-color: transparent
   clock-face:
