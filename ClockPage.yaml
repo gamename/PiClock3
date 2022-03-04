@@ -5,7 +5,7 @@ blocks:
     type: frame
     width: 1.0
     height: 1.0
-    background-image: "{folders.image}/hawaii_twilight.png"
+    background-image: "{folders.image}/fanklin-flood.png"
     styles:
       background-color: transparent
   clock-face:
