@@ -5,7 +5,7 @@ blocks:
     type: frame
     width: 1.0
     height: 1.0
-    background-image: "{folders.image}/smokies.png"
+    background-image: "{folders.image}/hawaii_twilight.png"
     styles:
       background-color: transparent
   clock-face:
@@ -14,17 +14,17 @@ blocks:
     width: 1.0
     aspect: 0.65
     horizontal-center: 0.0
-    vertical-center: 0.0
+    vertical-center: 0.3
   top-line:
     order: 3
     type: label
     width: 1.0
-    height: 0.28
+    height: 0.4
     top: 0.0
     left: 0.0
     styles:
       color: '{styles.default.color}'
-      font-size: 0.75
+      font-size: 0.85
       qproperty-alignment: AlignCenter
   bottom-line:
     order: 3
