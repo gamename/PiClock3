@@ -10,7 +10,7 @@ styles:
   default:
     font-size: 24px
     background-color: grey
-    color: '#fff'
+    color: '#000'
 
 language: !include PiClock3/Language-en.yaml
 locale:
