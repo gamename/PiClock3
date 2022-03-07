@@ -47,15 +47,15 @@ class Date(Plugin):
             return
 
         # date
-        sup = 'th'
-        if (now.day == 1 or now.day == 21 or now.day == 31):
-            sup = 'st'
-        if (now.day == 2 or now.day == 22):
-            sup = 'nd'
-        if (now.day == 3 or now.day == 23):
-            sup = 'rd'
-        if 'locale' in self.config:
-            sup = ""
+        # sup = 'th'
+        # if (now.day == 1 or now.day == 21 or now.day == 31):
+        #     sup = 'st'
+        # if (now.day == 2 or now.day == 22):
+        #     sup = 'nd'
+        # if (now.day == 3 or now.day == 23):
+        #     sup = 'rd'
+        # if 'locale' in self.config:
+        sup = ""
         self.pluginData.sup = sup
         self.pluginData.now = now
         ds = self.piclock.expand(self.config.format)
