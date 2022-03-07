@@ -55,8 +55,8 @@ class Date(Plugin):
         # if (now.day == 3 or now.day == 23):
         #     sup = 'rd'
         # if 'locale' in self.config:
-        sup = ""
-        self.pluginData.sup = sup
+        #     sup = ""
+        self.pluginData.sup = ""
         self.pluginData.now = now
         ds = self.piclock.expand(self.config.format)
         self.block.setText(ds)
