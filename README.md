@@ -1,6 +1,8 @@
 
 This is a fork of [PiClock3](https://github.com/n0bel/PiClock3) that has been modified to be a much simplified version of the desktop clock.
 
+## Here is what the new configuration looks like
+![](.README_images/office-clock.png)
 
 ## Here is how to make the clock start at boot time:
 
