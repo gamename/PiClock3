@@ -26,15 +26,4 @@ blocks:
       color: '{styles.default.color}'
       font-size: 0.85
       qproperty-alignment: AlignCenter
-  bottom-line:
-    order: 3
-    type: label
-    width: 1.0
-    height: 0.1
-    bottom: 0.0
-    left: 0.0
-    styles:
-      color: '{styles.default.color}'
-      font-size: 0.5
-      qproperty-alignment: AlignCenter
 
