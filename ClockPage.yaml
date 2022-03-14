@@ -24,6 +24,6 @@ blocks:
     left: 0.0
     styles:
       color: '{styles.default.color}'
-      font-size: 0.85
+      font-size: 0.80
       qproperty-alignment: AlignCenter
 
