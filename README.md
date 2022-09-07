@@ -1,6 +1,11 @@
 
 This is a fork of [PiClock3](https://github.com/n0bel/PiClock3) that has been modified to be a much simplified version of the desktop clock.
 
+## Here is how to install this code
+```bash
+git clone https://github.com/gamename/PiClock3
+```
+
 ## Here is what the new configuration looks like
 ![](.README_images/office-clock.png)
 
